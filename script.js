@@ -27,9 +27,9 @@ async function searchShows(event){
             showGallery.textContent = "No shows found with that title";
             return;
         }
-        for(i=0;i<10 && i<shows.length;i++){
+        for(let i=0;i<10 && i<shows.length;i++){
             const showCard = document.createElement("div");
-            showCard.classList.add("show-card")
+            showCard.classList.add("show-card");
 
 
 
