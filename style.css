@@ -1,3 +1,97 @@
+body{
+    background-color: #F5EBDD;
+    color: #551C28;
+    font-family: georgia, serif;
+    margin: 10px;
+}
+
+body > h1 {
+    text-align: center;
+    border-bottom: 2px solid #C5A15A;
+}
+
+#showGallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.show-card{
+    background-color: #551C28;
+    color: #F5EBDD;
+    border: 2px solid #C5A15A;
+    border-radius: 10px;
+    padding: 0px 15px 15px 15px;
+    flex: 1 1 280px;
+}
+
+.show-card h2{
+    color: #C5A15A;
+    text-align: center;
+    border-bottom: 2px solid #C5A15A;
+    padding-bottom: 10px;
+}
+.show-card h3{
+    color: #C5A15A;
+    padding-bottom: 5px;
+}
+
+.show-card a {
+    display: inline-block;
+    background-color: #C5A15A;
+    color: #551C28;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.show-card a:hover{
+    background-color: #F5EBDD;
+    color:#551C28;
+}
+
+#searchForm {
+    display: flex;
+    justify-content:start;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input{
+    background-color: #F5EBDD;
+    color: #551C28;
+    padding: 5px;
+
+    width: 75%;
+    border: 2px solid #551C28;
+    border-radius: 5px;
+}
+button{
+    background-color: #551C28;
+    color: #C5A15A;
+    padding: 5px;
+
+    border: 2px solid #C5A15A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #C5A15A;
+    color: #551C28;
+}
+
 .character-text{
     margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid #C5A15A;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    font-size: 20px;
+    color: #551C28;
 }

@@ -14,6 +14,7 @@ async function searchShows(event){
 
     if(showName === ""){
         showGallery.textContent= "Please Enter a Valid Search";
+        lastSearch = "";
         return;
     }
     if(showName === lastSearch){
@@ -106,7 +107,7 @@ async function searchShows(event){
             rating.textContent = "Rating: Not available";
         }
         else{
-        rating.textContent = ratingText;
+        rating.textContent = "⭐ " + ratingText  + "/10";
         }
         showCard.appendChild(rating);
 
